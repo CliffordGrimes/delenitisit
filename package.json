@@ -1,0 +1,37 @@
+{
+  "name": "delenitisit",
+  "version": "1.0.0",
+  "description": "Common classes for supporting web3 with SmartyPay api",
+  "author": "AnnettaLehner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CliffordGrimes/delenitisit.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "smartypay",
+    "quae"
+  ],
+  "main": "./dist/esbuild/index.js",
+  "types": "./dist/tsc/index.d.ts",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "smartypay-client-model": "^2.17.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.21",
+    "@types/node": "^15.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "esbuild": "^0.14.36",
+    "esbuild-plugin-d.ts": "^1.1.0",
+    "eslint": "^7.22.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
+    "typedoc": "^0.22.15",
+    "typescript": "^4.2.3"
+  },
+  "homepage": "https://github.com/CliffordGrimes/delenitisit.git"
+}
